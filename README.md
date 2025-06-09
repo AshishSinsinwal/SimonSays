@@ -13,8 +13,8 @@ A fun and interactive memory game built using **HTML**, **CSS**, and **JavaScrip
 
 ## 📸 Preview
 
-(./assets/simonprev1.png) 
-(./assets/simonprev2.png) 
+![Preview 1](./assets/simonprev1.png)  
+![Preview 2](./assets/simonprev2.png)
 
 ## 🛠️ Technologies Used
 
