@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="first">
+        <h1>Welcome to Simon Says Game</h1>
+        <p>Rules for the game</p>
+        
+        <div class="rules">
+            <ul>
+                <li>Press any key to start the game.</li>
+                <li>Watch the sequence of button flashes carefully.</li>
+                <li>Repeat the sequence by clicking the buttons in the same order.</li>
+                <li>The sequence gets longer with each level.</li>
+                <li>If you click the wrong button, the game ends.</li>
+                <li>Your score is the highest level you successfully complete.</li>
+                <li>Try to beat the highest score every time you play!</li>
+            </ul>
+        </div>
+
+        <div class="form-section">
+            <label for="checkbox">
+                <input type="checkbox" name="agree" id="checkbox" required>
+                I have read and agree to the rules.
+            </label>
+
+            <label for="user">Enter Your Name</label>
+            <input type="text" name="username" id="user" placeholder="Your Name" required>
+
+            <button id="proceed-btn">Let's Play</button>
+        </div>
+    </div>
+
+    <main class="game-container">
+        <div class="welcome-back">
+            <p>Welcome Back, <span class="welcome-username">Player</span>!</p>
+        </div>
+        
+        <div class="user-container">
+            <div class="user-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="user-info">
+                <p class="user-name">JohnDoe</p>
+                <p class="user-highscore">Highscore: 0</p>
+            </div>
+        </div>
+
+        <div class="header-container">
+            <h1 class="game-title">Simon Says Game</h1>
+            <h2 class="game-status">Press any key to start the game</h2>
+            <p class="highest-score">Highest score is 0</p>
+        </div>
+
+        <div class="box-container">
+            <div class="line-one">
+                <div class="box" id="btn1">1</div>
+                <div class="box" id="btn2">2</div>
+            </div>
+            <div class="line-two">
+                <div class="box" id="btn3">3</div>
+                <div class="box" id="btn4">4</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with &hearts; by Ashish Sinsinwal</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
