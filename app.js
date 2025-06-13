@@ -57,7 +57,7 @@ function setupEventListeners() {
     elements.userInfo.addEventListener("click", stopPropagation);
     
     // Start game on keypress
-    document.addEventListener("keypress", handleKeyPress);
+    document.addEventListener("click", handleKeyPress);
 }
 
 // Form validation
