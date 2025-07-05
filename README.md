@@ -59,11 +59,3 @@ git clone https://github.com/AshishSinsinwal/SimonSays.git
 
 ---
 
-Let me know if you'd like this README to include:
-
-- A live demo link (if deployed),
-- Screenshots (I can help you structure the assets folder),
-- Badges (like GitHub stars, forks, etc.),
-- License section.
-
-Just say the word, and I’ll tailor it!
